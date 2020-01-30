@@ -1,0 +1,15 @@
+body	{
+	font-family: 'Inconsolata', monospace;
+	background-color: #2b303b;
+	color: #c0c5ce;
+}
+
+li	{
+	list-style-type: none;
+}
+
+a	{
+	text-decoration: none;
+	color: #c0c5ce;
+}
+
