@@ -12,4 +12,10 @@ var showCurrentTime = function()
 	{
 		meridan = "PM";
 	}
+
+	var currentTime = hours + minutes + seconds + meridan;
+
+	document.write(currentTime);	
 }
+
+

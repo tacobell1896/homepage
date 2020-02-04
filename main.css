@@ -1,4 +1,4 @@
-body	{
+body, input	{
 	font-family: 'Inconsolata', monospace;
 	background-color: #2b303b;
 	color: #c0c5ce;
@@ -13,3 +13,7 @@ a	{
 	color: #c0c5ce;
 }
 
+input	{
+	border: none;
+	border-bottom: 2px solid #c0c5ce;
+}
