@@ -2,30 +2,50 @@
 <html>
 	<head>
 		<title>New Tab</title>
+		<link rel="stylesheet" type="text/css" href="normalize.css">
 		<link rel="stylesheet" type="text/css" href="main.css">
 		<script src="scripts/clock.js"></script>
 	</head>
 	<body>
-	<h1>New Tab</h1>
-	<h2>Time: <span id="clock"></span>
-	</h2>
-	<form action="https://google.com/search" method="get">
-		<label>Search: </label>
-		<input type="text" name="q" size="64" />
-	</form>
-	<h2>List of Useful Links</h2>
-		<ul>
-			<li><a href="https://reddit.com">Reddit</a></li>
-			<li><a href="https://boards.4chan.org">4Chan</a></li>
-			<li><a href="https://news.ycombinator.com">Hacker News</a></li>
-			<li><a href="https://arstechnica.com">Ars Technica</a></li>
-			<li><a href="https://github.com">Github</a></li>
-			<li><a href="https://unifi.ubnt.com">Unifi Controller</a></li>
-			<li><a href="https://wiki.archlinux.org">Arch Wiki</a></li>
-			<li><a href="https://www.wikipedia.org">Wikipedia</a></li>
-			<li><a href="https://twitter.com">Twitter</a></li>
-			<li><a href="https://google.com">Google</a></li>
-			<li><a href="https://theathletic.com">The Athletic</a></li>
-		</ul>
+		<header>
+				<h1>New Tab</h1>
+			<!--TODO: <h2>Time: <span id="clock"></span></h2> -->				
+				<form action="https://google.com/search" method="get">
+					<input type="text" name="q" size="64" placeholder="Search: " />
+				</form>
+		</header>
+		<main>	
+			<section>
+				<h3>Bored</h3>
+				<ul>
+					<li><a href="https://reddit.com">Reddit</a></li>
+					<li><a href="https://boards.4chan.org">4Chan</a></li>
+					<li><a href="https://twitter.com">Twitter</a></li>
+					<li><a href="https://theathletic.com">The Athletic</a></li>
+				</ul>
+			</section>
+			<section>
+				<h3>Productive</h3>
+				<ul>
+					<li><a href="https://github.com">Github</a></li>
+					<li><a href="https://unifi.ubnt.com">Unifi Controller</a></li>
+				</ul>
+			</section>
+			<section>
+				<h3>News</h3>
+				<ul>
+					<li><a href="https://news.ycombinator.com">Hacker News</a></li>
+					<li><a href="https://arstechnica.com">Ars Technica</a></li>
+					<li><a href="https://theverge.com">The Verge</a></li>
+				</ul>
+			</section>
+			<section>
+				<h3>Reference</h3>
+				<ul>
+					<li><a href="https://wiki.archlinux.org">Arch Wiki</a></li>
+					<li><a href="https://www.wikipedia.org">Wikipedia</a></li>
+				</ul>
+			</section>
+		</main>
 	</body>
 </html>
