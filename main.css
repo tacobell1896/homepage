@@ -57,3 +57,13 @@ h3	{
 	text-decoration: underline;
 }
 
+@media only screen and (max-width: 768px) {
+	main	{
+		flex-direction: column;
+
+	}
+
+	section	{
+		width: 80%;
+	}
+} 
