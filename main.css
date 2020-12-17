@@ -33,6 +33,10 @@ section	{
 	margin: .5em;
 }
 
+article section	{
+	width: 18.5%;
+}
+
 li	{
 	list-style-type: none;
 	text-align: left;
@@ -42,9 +46,6 @@ li	{
 a	{
 	text-decoration: none;
 	color: #d8dee9;
-}
-
-a:hover	{
 	font-weight: bold;
 }
 
@@ -58,6 +59,10 @@ input	{
 
 h3	{
 	text-decoration: underline;
+}
+
+aside h3{
+	text-align: center;
 }
 
 @media only screen and (max-width: 768px) {

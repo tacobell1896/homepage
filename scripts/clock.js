@@ -1,21 +1,22 @@
 var showCurrentTime = function()
 {
-	var clock = document.getElementById('clock');
+	const clock = document.getElementById('clock');
 	var currentTime = new Date();
 
 	var hours = currentTime.getHours();
 	var minutes = currentTime.getMinutes();
-	var seconds = currentTime.getSeconds();
 	var meridan = "AM"
+	const noon = 12;
 
 	if (hours >= noon)
 	{
 		meridan = "PM";
+		hours = hours - 12;
 	}
 
-	var currentTime = hours + minutes + seconds + meridan;
+	var currentTime = hours + ":" + minutes + meridan;
 
-	document.write(currentTime);	
+	clock.append(currentTime);
 }
 
 
