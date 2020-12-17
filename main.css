@@ -14,7 +14,7 @@ header	{
 	text-align: center;
 }
 
-main	{
+article	{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -27,13 +27,16 @@ main	{
 section	{
 	border: 2px solid #d8dee9;
 	border-radius: 5px;
-	width: 15%;
+	width: auto;
 	text-align: center;
+	padding: auto;
+	margin: .5em;
 }
 
 li	{
 	list-style-type: none;
 	text-align: left;
+	font-size: .95em;
 }
 
 a	{
