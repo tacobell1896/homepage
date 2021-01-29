@@ -39,9 +39,13 @@ article section	{
 }
 
 li	{
-	list-style-type: '>';
+	list-style-type: none;
 	text-align: left;
 	font-size: .95em;
+}
+
+section li	{
+	list-style-type: '>';
 }
 
 a	{
