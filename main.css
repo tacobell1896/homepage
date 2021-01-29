@@ -39,14 +39,14 @@ article section	{
 }
 
 li	{
-	list-style-type: none;
+	list-style-type: '>';
 	text-align: left;
 	font-size: .95em;
 }
 
 a	{
 	text-decoration: none;
-	color: #6272a4;
+	color: #50fa7b;
 	font-weight: bold;
 }
 
