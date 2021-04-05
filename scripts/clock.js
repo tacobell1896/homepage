@@ -1,22 +1,20 @@
+function addZero(i)	{
+
+	if (i < 10)	{
+		i = "0" + i;
+	}
+	return i;
+}
 var showCurrentTime = function()
 {
 	const clock = document.getElementById('clock');
 	var currentTime = new Date();
 
-	var hours = currentTime.getHours();
-	var minutes = currentTime.getMinutes();
-	var meridan = "AM"
-	const noon = 12;
+	var hours = addZero(currentTime.getHours());
+	var minutes = addZero(currentTime.getMinutes());
+	var currentTime = hours + ":" + minutes;
 
-	if (hours >= noon)
-	{
-		meridan = "PM";
-		hours = hours - 12;
-	}
-
-	var currentTime = hours + ":" + minutes + meridan;
-
-	clock.append(currentTime);
+	clock.innerHTML = currentTime;
 }
 
 

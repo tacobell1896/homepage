@@ -9,11 +9,11 @@
 		</script>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
-	<body>
+	<body onload="document.search.q.focus()">
 		<header>
 				<h1>~</h1>
 				<h2 id="clock">Time: </h2>	
-				<form action="https://duckduckgo.com" method="get">
+				<form name="search" action="https://duckduckgo.com" method="get">
 					<input type="text" name="q" size="64" placeholder="Search: " />
 				</form>
 		</header>
