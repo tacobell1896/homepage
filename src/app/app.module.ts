@@ -4,11 +4,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FavoritesComponent } from './favorites/favorites.component';
+import { WebSearchComponent } from './web-search/web-search.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FavoritesComponent
+    FavoritesComponent,
+    WebSearchComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
