@@ -11,54 +11,27 @@ export const LINKS: Link[] = [
     { name: 'AWS', url: 'https://aws.amazon.com', category: 'Productivity'},
     { name: 'Free Code Camp', url: 'https://freecodecamp.org', category: ''},
     { name: 'Hacker 101 CTF', url: 'https://www.hacker101.com', category: ''},
-    { name: '', url: '', category: ''},
-    { name: '', url: '', category: ''},
-    { name: '', url: '', category: ''},
-    { name: '', url: '', category: ''},
-    { name: '', url: '', category: ''},
-    { name: '', url: '', category: ''},
-    { name: '', url: '', category: ''},
-    { name: '', url: '', category: ''},
-    { name: '', url: '', category: ''},
-    { name: '', url: '', category: ''},
-    { name: '', url: '', category: ''},
-    { name: '', url: '', category: ''},
-    { name: '', url: '', category: ''},
-    { name: '', url: '', category: ''},
-    { name: '', url: '', category: ''},
-    { name: '', url: '', category: ''},
-    { name: '', url: '', category: ''},
-    { name: '', url: '', category: ''},
-    { name: '', url: '', category: ''},
-    { name: '', url: '', category: ''},
-    { name: '', url: '', category: ''},
-    { name: '', url: '', category: ''},
-    { name: '', url: '', category: ''},
-    { name: '', url: '', category: ''},
+    { name: 'HackerOne', url: 'https://www.hackerone.com', category: ''},
+    { name: 'Robinhood', url: 'https://robinhood.com', category: ''},
+    { name: 'Coinbase', url: 'https://coinbase.com', category: ''},
+    { name: 'Binance', url: 'https://binance.us', category: ''},
+    { name: 'TD Ameritrade', url: 'https://tdameritrade.com', category: ''},
+    { name: 'E-Trade', url: 'https://us.etrade.com', category: ''},
+    { name: 'Hacker News', url: 'https://news.ycombinator.com', category: ''},
+    { name: 'Ars Technica', url: 'https://arstechnica.com', category: ''},
+    { name: 'The Verge', url: 'https://theverge.com', category: ''},
+    { name: 'Polygon', url: 'https://polygon.com', category: ''},
+    { name: 'Bleeping Computer', url: 'https://bleepingcomputer.com', category: ''},
+    { name: 'Google News', url: 'https://news.google.com', category: ''},
+    { name: 'Arch Wiki', url: 'https://wiki.archlinux.org', category: ''},
+    { name: 'Wikipedia', url: 'https://www.wikipedia.org', category: ''},
+    { name: 'Exploit Database', url: 'https://exploit-db.com', category: ''},
+    { name: 'StackOverflow', url: 'https://stackoverflow.com', category: ''},
+    { name: 'Mozilla Developer Network', url: 'https://developer.mozilla.org', category: ''},
+    { name: 'Youtube', url: 'https://youtube.com', category: ''},
+    { name: 'Twitch', url: 'https://twitch.tv', category: ''},
+    { name: 'Crunchyroll', url: 'https://crunchyroll.com', category: ''},
+    { name: 'Netflix', url: 'https://netflix.com', category: ''},
+    { name: 'Hulu', url: 'https://hulu.com', category: ''},
+    { name: 'Prime Video', url: 'https://www.amazon.com/Amazon-Video/b/?&node=2858778011', category: ''},
 ]
-/*					
-						"></a></li>
-						url: 'https://www.hackerone.com">HackerOne</a></li>
-						url: 'https://robinhood.com">Robinhood</a></li>
-						url: 'https://coinbase.com">Coinbase</a></li>
-						url: 'https://binance.us">Binance</a></li>
-						url: 'https://tdameritrade.com">TD Ameritrade</a></li>
-						url: 'https://us.etrade.com">E-Trade</a></li>
-						url: 'https://news.ycombinator.com">Hacker News</a></li>
-						url: 'https://arstechnica.com">Ars Technica</a></li>
-						url: 'https://theverge.com">The Verge</a></li>
-						url: 'https://polygon.com">Polygon</a></li>
-						url: 'https://bleepingcomputer.com">Bleeping Computer</a></li>
-						url: 'https://news.google.com">Google News</a></li>
-						url: 'https://wiki.archlinux.org">Arch Wiki</a></li>
-						url: 'https://www.wikipedia.org">Wikipedia</a></li>
-						url: 'https://exploit-db.com">Exploit Database</a></li>
-						url: 'https://stackoverflow.com">StackOverflow</a></li>
-						url: 'https://developer.mozilla.org">Mozilla Developer Network</a></li>
-						url: 'https://youtube.com">YouTube</a></li>
-						url: 'https://twitch.tv">Twitch</a></li>
-						url: 'https://crunchyroll.com">Crunchyroll</a></li>
-						url: 'https://netflix.com">Netflix</a></li>
-						url: 'https://hulu.com">Hulu</a></li>
-						url: 'https://www.amazon.com/Amazon-Video/b/?&node=2858778011">Prime Video</a></li>
-                        */
