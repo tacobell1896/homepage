@@ -1,4 +1,10 @@
-<!--<h3>{{category}}</h3>-->
-<ul>
-    <li *ngFor="let link of links"><a href="{{link.url}}">{{link.name}}</a></li>
-</ul> 
+<div class="section" *ngFor="let category of categories; ">
+    <h3>{{category.name}}</h3>
+    <div>
+        <ul> 
+            <li *ngFor="let link of getCategoryLinks(category.id)">
+                <a [href]="link.url">{{ link.name }}</a>
+              </li>
+        </ul> 
+    </div>
+</div>

@@ -1,5 +1,6 @@
-export interface Link   {
+export interface link  {
+    id: number;
     url: string;
     name: string;
-    category: string;
+    categoryId: number;
 }
