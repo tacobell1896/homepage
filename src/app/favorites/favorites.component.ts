@@ -89,6 +89,15 @@ export class FavoritesComponent implements OnInit {
     }
     return [];
   }
+  addLink() {
+    console.log("Link added!");
+    // this.links.push()
+  }
+  addCategory() {
+    console.log("Category added!");
+    this.categories.push({id: 7, name: 'New Category', links: []});
+    console.log(this.categories);
+  }
   constructor() { }
   ngOnInit(): void {
 
